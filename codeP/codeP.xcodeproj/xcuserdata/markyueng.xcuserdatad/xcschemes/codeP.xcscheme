@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8B18A5851D01D7EA009E1F06"
-               BuildableName = "CodeP.app"
-               BlueprintName = "CodeP"
-               ReferencedContainer = "container:CodeP.xcodeproj">
+               BlueprintIdentifier = "8BB9003B1D3E67FA0061698B"
+               BuildableName = "codeP.app"
+               BlueprintName = "codeP"
+               ReferencedContainer = "container:codeP.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8B18A59C1D01D7EA009E1F06"
-               BuildableName = "CodePTests.xctest"
-               BlueprintName = "CodePTests"
-               ReferencedContainer = "container:CodeP.xcodeproj">
+               BlueprintIdentifier = "8BB900571D3E67FB0061698B"
+               BuildableName = "codePTests.xctest"
+               BlueprintName = "codePTests"
+               ReferencedContainer = "container:codeP.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8B18A5A71D01D7EA009E1F06"
-               BuildableName = "CodePUITests.xctest"
-               BlueprintName = "CodePUITests"
-               ReferencedContainer = "container:CodeP.xcodeproj">
+               BlueprintIdentifier = "8BB900621D3E67FB0061698B"
+               BuildableName = "codePUITests.xctest"
+               BlueprintName = "codePUITests"
+               ReferencedContainer = "container:codeP.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8B18A5851D01D7EA009E1F06"
-            BuildableName = "CodeP.app"
-            BlueprintName = "CodeP"
-            ReferencedContainer = "container:CodeP.xcodeproj">
+            BlueprintIdentifier = "8BB9003B1D3E67FA0061698B"
+            BuildableName = "codeP.app"
+            BlueprintName = "codeP"
+            ReferencedContainer = "container:codeP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8B18A5851D01D7EA009E1F06"
-            BuildableName = "CodeP.app"
-            BlueprintName = "CodeP"
-            ReferencedContainer = "container:CodeP.xcodeproj">
+            BlueprintIdentifier = "8BB9003B1D3E67FA0061698B"
+            BuildableName = "codeP.app"
+            BlueprintName = "codeP"
+            ReferencedContainer = "container:codeP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8B18A5851D01D7EA009E1F06"
-            BuildableName = "CodeP.app"
-            BlueprintName = "CodeP"
-            ReferencedContainer = "container:CodeP.xcodeproj">
+            BlueprintIdentifier = "8BB9003B1D3E67FA0061698B"
+            BuildableName = "codeP.app"
+            BlueprintName = "codeP"
+            ReferencedContainer = "container:codeP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

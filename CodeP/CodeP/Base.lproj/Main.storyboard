@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BtT-zX-SO9">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--CodeList-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CodeP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="YZCodesViewSBID" title="CodeList" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="YZCodesViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -17,9 +18,68 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Codes" id="zJ0-MN-o2H"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="995" y="759"/>
+        </scene>
+        <!--Blogs-->
+        <scene sceneID="Ozn-8W-WF6">
+            <objects>
+                <viewController storyboardIdentifier="YZBlogsViewSBID" title="Blogs" useStoryboardIdentifierAsRestorationIdentifier="YES" id="31C-cY-T0g" customClass="YZBlogsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8tg-54-uya"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yde-DA-h9R"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kyJ-0g-2gt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Blogs" id="8m1-zy-uBP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CYC-hi-pSx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024" y="-34"/>
+        </scene>
+        <!--cheatSheet-->
+        <scene sceneID="Pky-FB-1g8">
+            <objects>
+                <viewController storyboardIdentifier="YZCheatSheetSBID" title="cheatSheet" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4qp-45-5qP" customClass="YZCheatSheetViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Bjh-vS-aEs"/>
+                        <viewControllerLayoutGuide type="bottom" id="sXJ-nM-aqZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jom-ZY-dzD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="CheatSheets" id="jMe-Kx-NuI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Adv-is-sTV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1032" y="-742"/>
+        </scene>
+        <!--Main Tab Bar Controller-->
+        <scene sceneID="Dfq-YP-Xf7">
+            <objects>
+                <tabBarController storyboardIdentifier="YZMainTabBarSBID" id="BtT-zX-SO9" customClass="YZMainTabBarController" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="G7a-YD-bTQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="31C-cY-T0g" kind="relationship" relationship="viewControllers" id="ckW-jr-z7N"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="zpi-If-BP0"/>
+                        <segue destination="4qp-45-5qP" kind="relationship" relationship="viewControllers" id="WVe-R8-UxE"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CvB-Eg-DfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-284" y="-34"/>
         </scene>
     </scenes>
 </document>
